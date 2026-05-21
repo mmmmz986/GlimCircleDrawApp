@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e92ea27f-c17c-43f7-8c23-2b93747820c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{2e7a40d4-3956-4008-a1a8-679e4d6c8544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{df16bd8c-dbdf-404e-8192-d5493b3f79e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{48e7d629-22d0-4911-a000-9a356e2f7658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{55389616-45e2-4ebc-a454-8abe9537ee5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{b287c55c-1c05-41a8-80c8-ece1815b8d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Math">
+      <UniqueIdentifier>{ccc55ec4-730e-450c-b6e4-1f0b537c4a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Render">
+      <UniqueIdentifier>{57fa9b43-2a28-4a88-9cc6-6ddca615886e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GlimCircleDrawApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GlimCircleDrawAppDlg.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MainController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleMath.h">
+      <Filter>Helper\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleRender.h">
+      <Filter>Helper\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PointModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MainModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMoveThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GlimCircleDrawApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GlimCircleDrawAppDlg.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="MainController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleMath.cpp">
+      <Filter>Helper\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleRender.cpp">
+      <Filter>Helper\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MainModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMoveThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GlimCircleDrawApp.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GlimCircleDrawApp.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GlimCircleDrawApp.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
